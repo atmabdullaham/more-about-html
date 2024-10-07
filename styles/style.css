@@ -22,10 +22,48 @@ header li{
  list-style: none;
 }
 
+.audio-video-section{
+ background-image:linear-gradient(45deg, rgb(1, 1, 1),transparent ), url("/assets/background/bg1.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding: 3rem;
 
+ 
+}
 
+.audio-article{
+ color: whitesmoke;
+ /* padding: 3rem; */
+}
 
+#audio-card{
+ background-image: url("/assets/pic/audio\ thumbnail.png");
+ background-size: cover;
+ height: 20rem;
+ width: 36rem;
+ display: flex;
+ justify-content: center;
+ align-items: end;
+}
 
+#audio-card> audio{
+
+  width: 100%;
+  /* Adjust the width of the audio player */
+  max-width: 400px;
+  /* Set a maximum width */
+  background-color: #f3f3f3;
+  /* Background color of the player */
+  border: 2px solid #0077ff;
+  /* Border color */
+  border-radius: 10px;
+  /* Rounded corners */
+  padding: 5px;
+  /* Padding around the player */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Drop shadow for visual depth */
+ }
+}
 
 
 
