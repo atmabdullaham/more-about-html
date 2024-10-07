@@ -23,20 +23,24 @@ header li{
 }
 
 .audio-video-section{
- background-image:linear-gradient(45deg, rgb(1, 1, 1),transparent ), url("/assets/background/bg1.jpg");
+ background-image:linear-gradient(100deg,rgb(1, 1, 1),transparent ), url("/assets/background/bg1.jpg");
  background-size: cover;
  background-repeat: no-repeat;
- padding: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
 
  
 }
 
+section{
+ padding: 3rem;
+}
 .audio-article{
  color: whitesmoke;
  /* padding: 3rem; */
 }
 
-#audio-card{
+#audio-card {
  background-image: url("/assets/pic/audio\ thumbnail.png");
  background-size: cover;
  height: 20rem;
@@ -44,6 +48,8 @@ header li{
  display: flex;
  justify-content: center;
  align-items: end;
+
+
 }
 
 #audio-card> audio{
@@ -59,10 +65,41 @@ header li{
   border-radius: 10px;
   /* Rounded corners */
   padding: 5px;
+
   /* Padding around the player */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   /* Drop shadow for visual depth */
  }
+ .video-section{
+  background-image: url("/assets/background/bg2.png");
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ #video-card> video {
+  /* Styling for the video element */
+   
+    width: 100%;
+    /* Full width, responsive */
+    max-width: 800px;
+    /* Set a maximum width for the video */
+    border: 5px solid #0077ff;
+    /* Border around the video */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* Add a shadow for depth */
+    background-color: #f3f3f3;
+    /* Background color (can be useful if video fails to load) */
+    
+    /* Center the video with auto margins */
+    display: block;
+    /* Ensure the video is treated as a block element */
+   }
+.youtube-section{
+ background-image: url("/assets/background/bg3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
 }
 
 
@@ -128,5 +165,10 @@ header li{
 .gothic-a1-black {
  font-family: "Gothic A1", sans-serif;
  font-weight: 900;
+ font-style: normal;
+}
+.lobster-regular {
+ font-family: "Lobster", sans-serif;
+ font-weight: 400;
  font-style: normal;
 }

@@ -4,6 +4,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="icon" type="image" href="assets/fav/codeBlocks.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
@@ -41,12 +47,57 @@
         <div id="audio-card">
           <audio
             preload="auto"
-            autoplay
             controls
             loop
             src="/assets/audio/boiri batash.mp3"
           ></audio>
         </div>
+      </article>
+    </section>
+    <section class="video-section">
+      <article class="video-article">
+        <h2>How to add video?</h2>
+        <p>Use of <strong>video</strong> tag</p>
+        <h3>attributes:</h3>
+        <ol>
+          <li>controls: Shows playback controls(play/pause, fullscreen)</li>
+          <li>autoplay: Video starts playing automatically.</li>
+          <li>loop: Repeats the video after it ends.</li>
+          <li>muted: Starts video muted</li>
+          <li>poster: Displays an image before the video plays.</li>
+          <li>
+            preload: Defines how the video should load (auto, metadata, none).
+          </li>
+        </ol>
+        <div id="video-card">
+          <video controls src="/assets/video/Motivational Speech .mkv"></video>
+        </div>
+      </article>
+    </section>
+    <section class="youtube-section">
+      <article class="youtube-article">
+        <h3>How to add Youtube video to Webpage</h3>
+        <p>
+          Using ifreame Tag Purpose: Embeds external content (web pages, maps,
+          other media) into webpage
+        </p>
+        <h3>Attributes:</h3>
+        <ol>
+          <li>src: URL of the content to be embedded.</li>
+          <li>width and height: size of the iframe</li>
+          <li>frameborder: Controls wheather the iframe has a border</li>
+          <li>allow: Defines permissions (fullscreen, autoplay)</li>
+        </ol>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Qdz6O6DGGfs?si=sbMqHRcrnwvKoDv0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
       </article>
     </section>
   </body>
