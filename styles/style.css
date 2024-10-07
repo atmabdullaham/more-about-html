@@ -1,3 +1,44 @@
+body{
+ width: 90%;
+ margin: 10px auto;
+}
+header {
+ background-color: antiquewhite;
+ padding: 0.4em;
+}
+
+header> nav>ul{
+ display: flex;
+gap: 5rem;
+justify-content: center ;
+}
+
+header> nav> ul> li> a{
+ text-decoration: none;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header li{
+ list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .gothic-a1-thin {
  font-family: "Gothic A1", sans-serif;
  font-weight: 100;
