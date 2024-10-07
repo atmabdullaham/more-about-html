@@ -34,6 +34,7 @@ header li{
 
 section{
  padding: 3rem;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .audio-article{
  color: whitesmoke;
@@ -96,9 +97,11 @@ section{
     /* Ensure the video is treated as a block element */
    }
 .youtube-section{
- background-image: url("/assets/background/bg3.jpg");
+ background-image:linear-gradient(100deg, rgb(127, 72, 36), transparent), url("/assets/background/bg3.jpg");
 background-repeat: no-repeat;
 background-size: cover;
+color: rgb(9, 9, 9);
+
 
 }
 
